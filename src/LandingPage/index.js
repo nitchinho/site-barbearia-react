@@ -10,6 +10,8 @@ export default function LandingPage() {
     setEhTemaEscuro(!ehTemaEscuro);
   }
 
+  
+
   return (
     <div className={ehTemaEscuro ? 'modo-escuro' : 'modo-claro'}>
 
